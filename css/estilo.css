@@ -1,0 +1,144 @@
+
+/*-----------------Seções-----------------*/
+#section1 {
+    height: 500px;
+}
+
+#section2 {
+     padding-top: 50px;
+    height: 500px;
+    padding-top: 5px;
+   height: 150px;
+   
+}
+
+#section3 {
+    padding-top: 50px;
+    height: 200px;
+}
+
+#section4 {
+    padding-top: 50px;
+    
+}
+
+#section5 {
+    padding-top: 50px;
+    height: 500px;
+}
+/*-----------------Texto-----------------*/
+
+.sobre{
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+    text-indent: 50px;
+    letter-spacing: 3px;
+}
+.separador{
+    padding-bottom: 5px;
+}
+    /*<p class=" lead sobre">Olá, me chamo Larissa Souza, tenho 21 anos atualmente sou 
+    estudante de Sistemas de informação estou tentando ingressar na area de TI como desenvolvedora 
+    web front- end. Venho como foco principal é criar projetos com boa aparência e praticidade para 
+    o usuário.</p>*/
+
+.jumbotron {
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    color: inherit;
+    background-color: rgba(62, 69, 81, 0.3);
+}
+
+#visualizar{
+    margin-bottom: 20px;
+}
+/*----------thumbnail----------*/
+
+ .thumbnail {
+    position:relative;
+    overflow:hidden;
+    display: inline-block;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: rgba(62, 69, 81, 0.3);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background: rgba(62, 69, 81, 0.3);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+   
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.thumbnail:hover .caption {
+    top:0%;
+}
+/*<img src="img/bootstrap.png" class="img-fluid float-right"style="margin-left: 10%;
+max-width:400px; max-height:180px;width: auto;height: auto;padding-top: 10px;">*/
+.btn{
+
+}
+
+/*----------langs img----------*/
+
+#html{
+    padding: 10px 0px 10px 0px;
+}
+
+#css{
+    margin-left: 30px;
+    padding: 10px 0px 10px 0px;   
+}
+
+#javascript{
+    margin-left: 30px;
+    padding: 10px 0px 10px 0px;
+}
+
+#css{
+   margin-left: 30px;
+   padding: 10px 0px 10px 0px; 
+}
+
+#bootstrap{
+    margin-left:30px;
+    max-width:400px;
+    padding: 10px 0px 10px 0px;
+    max-height:180px;
+    width: auto;height: auto;
+    padding-top: 10px;
+}
+/*----------Redes Sociais----------*/
+.redes{
+    
+}
+
+
+footer {
+   padding-top: 40px;
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+    margin-top: 150px;
+
+}
+
